@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zaiqa — Restaurant à Woippy</title>
+  <meta name="description" content="Zaiqa — Restaurant à Woippy. Découvrez notre menu et retrouvez-nous au 1 Rue de l'Abbé Grégoire, 57140 Woippy.">
+  <style>
+    :root{--orange:#f47b20;--dark:#080808;--card:#121212;--text:#f5f5f5}
+    *{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--dark);color:var(--text);line-height:1.5}
+    header{min-height:72vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:50px 20px;
+      background:radial-gradient(circle at center,#2a170b 0,#0b0b0b 48%,#050505 100%)}
+    .hero{max-width:900px}.logo{font-size:clamp(58px,12vw,120px);font-weight:900;letter-spacing:6px;margin:0;color:#fff}
+    .tag{color:var(--orange);font-size:clamp(18px,3vw,28px);letter-spacing:4px;text-transform:uppercase}
+    .address{margin:25px auto;max-width:600px;color:#ddd;font-size:18px}
+    .buttons{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+    a.btn{display:inline-block;text-decoration:none;padding:14px 22px;border-radius:8px;font-weight:700}
+    .primary{background:var(--orange);color:#111}.secondary{border:1px solid #777;color:#fff}
+    section{padding:55px 18px;max-width:1100px;margin:auto}
+    h2{text-align:center;font-size:38px;margin:0 0 25px;text-transform:uppercase;letter-spacing:2px}
+    h2 span{color:var(--orange)}
+    .info{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+    .card{background:var(--card);border:1px solid #333;border-radius:12px;padding:22px;text-align:center}
+    .card strong{display:block;color:var(--orange);font-size:18px;margin-bottom:7px}
+    .menus{display:grid;gap:20px}.menus img{width:100%;height:auto;display:block;border-radius:10px;border:1px solid #333}
+    .notice{text-align:center;color:#aaa;margin-top:15px}
+    footer{border-top:1px solid #222;text-align:center;padding:28px 15px;color:#aaa}
+  </style>
+</head>
+<body>
+<header>
+  <div class="hero">
+    <div class="tag">Restaurant</div>
+    <h1 class="logo">ZAIQA</h1>
+    <p class="address">1 Rue de l'Abbé Grégoire, 57140 Woippy, France</p>
+    <div class="buttons">
+      <a class="btn primary" href="tel:+33743782590">📞 Appeler 07 43 78 25 90</a>
+      <a class="btn secondary" target="_blank" rel="noopener"
+         href="https://www.google.com/maps/search/?api=1&query=1+Rue+de+l'Abb%C3%A9+Gr%C3%A9goire%2C+57140+Woippy%2C+France">📍 Itinéraire Google Maps</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <h2>Bienvenue chez <span>Zaiqa</span></h2>
+  <div class="info">
+    <div class="card"><strong>📍 Adresse</strong>1 Rue de l'Abbé Grégoire<br>57140 Woippy, France</div>
+    <div class="card"><strong>📞 Téléphone</strong><a href="tel:+33743782590" style="color:#fff">07 43 78 25 90</a></div>
+    <div class="card"><strong>🕐 Horaires</strong>Lundi à samedi : 11h00 – 23h00<br>Dimanche : à renseigner</div>
+  </div>
+</section>
+
+<section>
+  <h2>Notre <span>Menu</span></h2>
+  <div class="menus">
+    <img src="menu-1.jpeg" alt="Menu Zaiqa — assiettes spécialité, naan, tacos et suppléments">
+    <img src="menu-2.jpeg" alt="Menu Zaiqa — entrées, menu enfant, sandwichs et burgers">
+    <img src="menu-3.jpeg" alt="Menu Zaiqa — autres plats et spécialités">
+  </div>
+  <p class="notice">Les menus et tarifs sont présentés d'après les cartes fournies par Zaiqa.</p>
+</section>
+
+<section>
+  <h2>Nous <span>trouver</span></h2>
+  <div class="card">
+    <p>1 Rue de l'Abbé Grégoire, 57140 Woippy, France</p>
+    <a class="btn primary" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/search/?api=1&query=1+Rue+de+l'Abb%C3%A9+Gr%C3%A9goire%2C+57140+Woippy%2C+France">Ouvrir Google Maps</a>
+  </div>
+</section>
+
+<footer>© Zaiqa — Restaurant à Woippy</footer>
+</body>
+</html>
